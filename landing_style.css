@@ -51,7 +51,6 @@
   
   select {
     text-align: center;
-    
     padding: 6px;
     height: 35px;
     width: 100%;
@@ -64,7 +63,7 @@
     background-color: #ffffff;
     font-size: 14px;
     text-align: center;
-    width: 250px;
+    width: 100%;
     border: 1px solid #000000;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
     margin-bottom: 10px;
@@ -73,7 +72,11 @@
   }
   #subscribeBox{
     display: flex;
-    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width : 500px;
+
   }
   #center {
     display: flex;
@@ -107,12 +110,6 @@
       
   }
 
-  fieldset {
-    margin-bottom: 5px;
-    border: none;
-    text-align: center;
-  }
-  
   legend {
     font-size: 1.4em;
     margin-bottom: 10px;
