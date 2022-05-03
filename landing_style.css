@@ -12,7 +12,7 @@
   
   form {
     width: 100%;
-    margin: 10px auto;
+    margin: auto;
     padding: 10px 20px;
     background: #ffffff;
     border-color: #000000;
@@ -20,9 +20,9 @@
   }
   
   h1 {
-    margin: 10px 10px 20px 10px;
+    margin: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
   }
 
@@ -75,7 +75,6 @@
     align-items: center;
     margin: auto;
     
-
   }
   
   #center {
@@ -100,7 +99,6 @@
       
   }
   
-
   #infoTag{
       text-align: center;
       font-size: 12px;
@@ -109,7 +107,6 @@
       margin-bottom: 20px;
       line-height:20px;
       font-style: italic;
-      
   }
 
   legend {
@@ -133,12 +130,13 @@
   
  
   
-  @media screen and (min-width: 382px) {
+  @media screen  {
   
     form {
       max-width: 25%;
       height: 650px;
     }
+
   
   }
   
