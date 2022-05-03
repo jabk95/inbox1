@@ -71,7 +71,12 @@
     margin-top: 20px;
     
   }
-
+  #subscribeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
   #center {
     display: flex;
     justify-content: center;
@@ -130,7 +135,7 @@
   }
   
  
-  
+  /*
   @media screen and (min-width: 382px) {
   
     form {
@@ -139,4 +144,4 @@
     }
   
   }
-  
+  */
