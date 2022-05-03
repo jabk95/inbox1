@@ -11,7 +11,7 @@
   }
   
   form {
-    width: 25%;
+    width: 75%;
     margin: auto;
     padding: 10px 20px;
     background: #ffffff;
@@ -128,10 +128,10 @@
   
  
   
-  @media screen (min-width: 200px) {
+  @media screen (min-width: 600px) {
   
     form {
-      width: 100%;
+      width: 25%;
     }
   
   }
