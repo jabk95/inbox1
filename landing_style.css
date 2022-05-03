@@ -1,0 +1,131 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'helvetica';
+    color: #000000;
+    background-color: #EB6F16;
+  }
+  
+  form {
+    max-width: 150px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-color: #000000;
+    box-shadow: 0px 0px 2px 2px #000000;
+    
+  }
+  
+  h1 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    height: auto;
+    margin: 10px;
+    outline: 0;
+    padding: 10px;
+    width: 250px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    
+  }
+  
+  
+  select {
+    text-align: center;
+    margin-left:45px;
+    padding: 6px;
+    height: 35px;
+    width: 250px;
+    
+  }
+  
+  button {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    width: 250px;
+    border: 1px solid #000000;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+
+  #heading {
+    font-size: 120px;
+    color: #FFF;
+    font-weight: 500;
+    
+  }
+
+  #tagline {
+      text-align: center;
+      color: #FFF;
+  }
+  
+
+  #infoTag{
+      text-align: center;
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      line-height:20px;
+      font-style: italic;
+      
+  }
+
+  fieldset {
+    margin-bottom: 5px;
+    border: none;
+    text-align: center;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+ 
+  
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 382;
+      height: 650px;
+    }
+  
+  }
+  
