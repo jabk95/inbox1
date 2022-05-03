@@ -11,13 +11,12 @@
   }
   
   form {
-    max-width: 150px;
+    width: 75%;
     margin: 10px auto;
     padding: 10px 20px;
     background: #ffffff;
     border-color: #000000;
     box-shadow: 0px 0px 2px 2px #000000;
-    
   }
   
   h1 {
@@ -75,9 +74,10 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    width : 500px;
+    
 
   }
+  
   #center {
     display: flex;
     justify-content: center;
